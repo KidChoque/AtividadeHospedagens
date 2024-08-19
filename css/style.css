@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../assets/fonts/Lato/Lato/Lato-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 461px;
+    background: linear-gradient(95.24deg, #1E52B4 -10.53%, #002777 103.54%);
+    flex-direction: column;
+}
+
+header .header-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2%;
+    width: 95%;
+
+
+}
+
+nav {
+  
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 500px;
+}
+
+
+
+header nav a {
+ font-size: 16  px;
+ color: white;
+}
+
+
+.logo{
+    width: 155.58px;
+    padding-left: 5%;
+    
+}
+
